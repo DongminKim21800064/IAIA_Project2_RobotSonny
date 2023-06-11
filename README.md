@@ -39,7 +39,26 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 **Camera**
 * Logitech Brio
 
+**참**
+에어하키의 공 이름을 **PUCK**이라고 한다.
+
+
 ### 1) Flow Chart
-![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/b85a499a-9f85-4845-959a-e94fb6769f8a)
-1. 
+
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/facad01f-a214-4cc7-a382-84f436f15243)
+
+
+
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/98dc770d-e2d1-4e78-859c-9b8fa5ae34dd)
+
+1.Predict puck paths by analyzing positional changes across multiple frames based on the segmented puck’s center.
+
+2. Determine the final path considering the angle of incidence with the wall.
+
+3. Identify the point closest to the predicted path among multiple points in front of the goal.
+
+4. Command the robot arm to move to the closest point on the path.
+
+
+
 
