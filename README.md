@@ -51,6 +51,7 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/98dc770d-e2d1-4e78-859c-9b8fa5ae34dd)
 
+
 1.Predict puck paths by analyzing positional changes across multiple frames based on the segmented puck’s center.
 
 2. Determine the final path considering the angle of incidence with the wall.
