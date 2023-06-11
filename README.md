@@ -20,7 +20,11 @@ Proffesor | Young-Keun Kim
 
 Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어하여 특정 임무를 수행하는 시나리오를 구성하며 로봇팔 제어 경험을 학습하기 위함과 저학년 학생들에게 로봇 체험을 통해 긍정적인 경험을 선사하여 기계제어공학부의 홍보를 목적으로 한다.
 
-우리는 **"참여성"**, **"실현가능성"** 을 중점으로 프로젝트 주제를 선정하였다. 이에 **에어하키로봇**이 참가자가 쉽게 게임을 진행 할 수 있으며, 협동로봇으로 구현할 수 있을것이라 판단하였다. 
+우리는 **"참여성"**, **"실현가능성"** 을 중점으로 프로젝트 주제를 선정하였다. 이에 **에어하키로봇**이 참가자가 쉽게 게임을 진행 할 수 있으며, 협동로봇으로 구현할 수 있을것이라 판단하였다.
+
+영상처리 기법으로 물체의 이동경로를 예측하여, 예측위치로 로봇팔을 움직여 Puck을 
+
+
 
 ## 1) Hardware
 
@@ -65,11 +69,12 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 ## 2) Software
 
 * Ubuntu (Linux Environment)
-* Cuda 11.8
-* Yolo V8
 * Python 3.x
 * Given ROS Libraries
 
+아래는 딥러닝을 위해 사용하고자 했던 소프트웨어이다.
+* Cuda 11.8
+* Yolo V8
 
 
 ## 3) Flow Chart
@@ -91,18 +96,20 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 5. When a goal is scored, the robot is moved to pick up the puck using a Vacuum Gripper and then place it back on the table
 
-## 2. DeepLearning Part
+## 2. Image Processing Part
 
-아래의 과정을 진행하여, ROS상에서 딥러닝을 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
+아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
 
-1. 딥러닝을 위한 ROS 상의 CUDA 설치법
+- Using OpenCV (Color Segmentaion)
+https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
+
+ 
+
+- 딥러닝을 위한 ROS 상의 CUDA 설치법
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11.8_Installation.md
 
-2. Yolo v8 및 Open cv 카메라 세팅
+- Yolo v8 및 Open cv 카메라 세팅
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_yolo_OpenCV.md
-
-3. Using OpenCV (Color Segmentaion)
-https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
 ## 3. Automation Part
 
