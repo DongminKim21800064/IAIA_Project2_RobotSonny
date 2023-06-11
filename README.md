@@ -32,8 +32,11 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 **AirHockey Table**
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/4e3ffd42-2178-48a4-9c35-9f479365e358)
-URL : https://www.11st.co.kr/products/5729217404?NaPm=ct=lhk3yb9k|ci=01f4068eac4029dc1c366ec30dee720cb879cad5|tr=slct|sn=17703|hk=6d9d370784625290fee06e082f7238cd3c822bf0&utm_term=&utm_campaign=%B3%D7%C0%CC%B9%F6pc_%B0%A1%B0%DD%BA%F1%B1%B3%B1%E2%BA%BB&utm_source=%B3%D7%C0%CC%B9%F6_PC_PCS&utm_medium=%B0%A1%B0%DD%BA%F1%B1%B3
 
+**URL** : https://www.11st.co.kr/products/5729217404?NaPm=ct=lhk3yb9k|ci=01f4068eac4029dc1c366ec30dee720cb879cad5|tr=slct|sn=17703|hk=6d9d370784625290fee06e082f7238cd3c822bf0&utm_term=&utm_campaign=%B3%D7%C0%CC%B9%F6pc_%B0%A1%B0%DD%BA%F1%B1%B3%B1%E2%BA%BB&utm_source=%B3%D7%C0%CC%B9%F6_PC_PCS&utm_medium=%B0%A1%B0%DD%BA%F1%B1%B3
+
+**Camera**
+* Logitech Brio
 
 ### 1) Flow Chart
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/b85a499a-9f85-4845-959a-e94fb6769f8a)
