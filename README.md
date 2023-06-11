@@ -22,4 +22,16 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 우리는 **"참여성"**, **"실현가능성"** 을 중점으로 프로젝트 주제를 선정하였다. 이에 **에어하키로봇**이 참가자가 쉽게 게임을 진행 할 수 있으며, 협동로봇으로 구현할 수 있을것이라 판단하였다. 
 
+### Hardware
+
+**Co-Robot**
+* Indy-10
+
+**Grippers**
+* Vaccum
+
+
+### 1) Flow Chart
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/b85a499a-9f85-4845-959a-e94fb6769f8a)
+1. 
 
