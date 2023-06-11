@@ -68,7 +68,10 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11.8_Installation.md
 
 2. Yolo v8 및 Open cv 카메라 세팅
+https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_yolo_OpenCV.md
 
+3. Using OpenCV (Color Segmentaion)
+4. 
 
 ## 3) Flow Chart
 
