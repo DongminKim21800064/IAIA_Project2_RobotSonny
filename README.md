@@ -72,8 +72,7 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11
 2. Yolo v8 및 Open cv 카메라 세팅
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_yolo_OpenCV.md
 
-3. Using OpenCV (Color Segmentaion)
-https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
+
 
 ## 3) Flow Chart
 
@@ -95,6 +94,9 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_
 5. When a goal is scored, the robot is moved to pick up the puck using a Vacuum Gripper and then place it back on the table
 
 ## 2. DeepLearning Part
+
+**Using OpenCV (Color Segmentaion)**
+https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
 ## 3. Automation Part
 
