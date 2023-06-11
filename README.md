@@ -72,7 +72,7 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 * Python 3.x
 * Given ROS Libraries
 
-아래는 딥러닝을 위해 사용하고자 했던 소프트웨어이다.
+아래는 딥러닝을 위해 사용하고자했던 소프트웨어이다.
 * Cuda 11.8
 * Yolo V8
 
@@ -98,12 +98,15 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 ## 2. Image Processing Part
 
-아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
+**아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.**
 
 - Using OpenCV (Color Segmentaion)
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
  
+**딥러닝**
+
+초기에는 딥러닝을 활용한 영상처리를 계획 하였으나, 이를 사용할 경우 연산량 증가로 인해 처리속도가 매우 느려져 딥러닝 파트를 프로젝트에서 제외 하였다.
 
 - 딥러닝을 위한 ROS 상의 CUDA 설치법
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11.8_Installation.md
