@@ -22,15 +22,25 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 우리는 **"참여성"**, **"실현가능성"** 을 중점으로 프로젝트 주제를 선정하였다. 이에 **에어하키로봇**이 참가자가 쉽게 게임을 진행 할 수 있으며, 협동로봇으로 구현할 수 있을것이라 판단하였다. 
 
-### Hardware
+## Hardware
 
 **Co-Robot**
 * Indy-10
 
+Indy-10 로봇 팔은 산업용 로봇 팔 중 하나로, 다양한 작업을 수행하는데 사용되는 로봇 팔이다. 이 로봇 팔은 산업 자동화 분야에서 널리 활용되며, 높은 정밀성과 성능을 제공한다.
+Indy-10 로봇 팔은 다관절 구조를 가지고 있어 다양한 자세와 움직임을 구현할 수 있다. 이로 인해 복잡한 작업이나 다양한 위치에 대한 접근이 가능하며, 작업 공간 내에서의 유연성을 제공한다.
+
+
 **Grippers**
 * Vacuum
 
+Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된다. 제공된 "indy_driver demo_grip.py" 코드를 간단히 수정하여 Vacuum Gripper를 사용할 수 있다.
+
+
 **AirHockey Table**
+
+에어하키 테이블로는 11번가에서 판매하는 30만원대의 제품을 구매하여 사용하였다. 카메라로 Puck의 이동경로를 예측 및 통신하여 로봇팔을 제어하는 과정에서 딜레이가 생기는 환경을 고려하여 중대형 크기의 제품을 선정하였다. 또한, 접이식으로써 보관 및 이동에도 용이하다는 장점이 있다.
+
 
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/4e3ffd42-2178-48a4-9c35-9f479365e358)
 
@@ -50,7 +60,7 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 에어하키의 공 이름을 **PUCK**이라고 한다.
 
 
-### 1) Flow Chart
+## 1) Flow Chart
 
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/facad01f-a214-4cc7-a382-84f436f15243)
 
