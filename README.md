@@ -4,7 +4,7 @@
 
 **Handong Global University, School of Mechanical and Control Engineering, 2023-1 Industrial AI & Automation**
 
-Proffesor | 김영근
+Proffesor | Young-Keun Kim
 
 21800064 | 김동민
 
