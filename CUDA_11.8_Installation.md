@@ -10,13 +10,15 @@ pci 업데이트를 진행하고 자신의 그래픽하드의 이름이 온전�
 lspci | grep -i VGA
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7517ed79-c74e-4274-82b3-f8bd74c897e4/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/8e9e36b1-548f-45fb-8f09-2ce13a9eba46)
+
 
 자신이 알고 있는 그래픽 하드 이름이 나와야함 
 
 만약 그냥 NVIDIA (자신이 모르는 이름)이 나오면 우분투에서 정확히 GPU를 인식하지 못한것임
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79e9de68-4172-45b6-843d-e9dab98d8fdb/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/0584c501-481b-4cce-81c7-2293c0075fc6)
+
 
 다음 명령어를 입력해서 최신 pci로 업데이트를 진행함
 
@@ -48,7 +50,8 @@ sudo bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia
 cat /etc/modprobe.d/blacklist-nvidia-nouveau.conf
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1f40cb0-95d5-44f5-9e66-333304365a11/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/3a764b12-6379-401a-8f39-9e1ca1716a96)
+
 
 ### Key 추가
 
@@ -66,7 +69,8 @@ ubuntu-drivers devices
 
 본인은 다음과 같이 출력됨
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f894d251-d585-419f-a271-b7b49ef4b2d4/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/b217fe97-6ba8-4965-988f-c6b129069ba7)
+
 
 ### NVIDIA driver 설치
 
@@ -89,7 +93,8 @@ sudo reboot now
 nvidia-smi
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c926936-1b51-4e77-b08a-294f444c0bf3/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/a2c5f19a-cce2-4b66-9200-4ba1fe720fa6)
+
 
 ### NVIDIA CUDA 링크
 
@@ -97,7 +102,8 @@ nvidia-smi
 
 본인은 오른쪽 상단에 11.8로 나와있어서 11.8로 진행함
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/feebd096-0154-47dd-99f7-a4a500bfc2de/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/0bab0e39-64be-42d5-990b-76bbc08e2c86)
+
 
 ```bash
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
@@ -123,7 +129,8 @@ sudo apt-get install manpages-dev
 ls /usr/local | grep cuda
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0bd265ff-845f-44f4-ba24-e91d57e91a46/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/a77ae071-df5b-4602-bb8b-74461c51c8ca)
+
 
 ### 환경변수 등록
 
@@ -144,7 +151,7 @@ source /etc/profile
 nvcc -V
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce556830-ec34-4bc9-a736-49549c965fda/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/91e80f0d-d6a4-4737-ab0b-9fd1f78189e6)
 
 ### cuDNN 설치
 
@@ -154,7 +161,7 @@ cuDNN을 설치할 때 tensorflow GPU에 맞는 버전을 사용해야 한다
 
 https://www.tensorflow.org/install/source?hl=ko#linux
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70f87b8b-ebe1-4e15-a3ec-3acb0e7b0676/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/3ab4c50b-0de5-4c4b-b92b-dc7efb10b53c)
 
 https://developer.nvidia.com/rdp/cudnn-download
 
@@ -162,13 +169,15 @@ https://developer.nvidia.com/rdp/cudnn-download
 
 본인은 v8.6.0에서 **[Local Installer for Linux x86_64 (Tar)](https://developer.nvidia.com/downloads/compute/cudnn/secure/8.8.1/local_installers/11.8/cudnn-linux-x86_64-8.8.1.3_cuda11-archive.tar.xz/)** 이거를 다운
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/345ecbdd-704d-4f54-b153-6c5b3229654d/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/cf5544f6-7bb5-4584-9efe-9280a065bd8c)
+
 
 ### cuDNN 8.6.0 CUDA11.8 을 설치하는 경우
 
 자신이 다운 받은 파일에 맞게 파일이름을 변경해야 한다
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c995035-7d11-4450-b9e9-7b126634fc8c/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/ddd9972c-a44f-4501-9355-5e64995e0be3)
+
 
 ```bash
 cd Downloads/
@@ -182,7 +191,8 @@ sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 cat /usr/local/cuda/include/cudnn_version.h | grep CUDNN_MAJOR -A 2
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4e01c45-60c4-4664-bf28-7fb062999bcd/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/9b7813ab-e064-4694-a7bc-8c5c2ee764fa)
+
 
 cuDNN 8.6.0 버전임
 
@@ -192,7 +202,8 @@ cuDNN 8.6.0 버전임
 ldconfig -N -v $(sed 's/:/ /' <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/90d34ae3-5bf5-4e72-94ef-326e1e875198/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/0e87e117-fc3c-40f2-92ba-1863a4207f83)
+
 
 ### Tensroflow 설치
 
@@ -222,7 +233,7 @@ tf.config.list_physical_devices('GPU')
 
 imrport tensorflow
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52446cd2-85f0-4b43-b2a1-37be8c84fa33/Untitled.png)
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/0fd3682a-c30d-44e8-a282-8f1f61aa8219)
 
 ### pytorch+cu118 설치
 
