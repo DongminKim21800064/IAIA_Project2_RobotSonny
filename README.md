@@ -93,7 +93,7 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 ## 2. DeepLearning Part
 
-아래의 과정을 진행하여, ROS상에서 딥러닝을 실행할 수 있는 환경을 세팅하였다.
+아래의 과정을 진행하여, ROS상에서 딥러닝을 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
 
 1. 딥러닝을 위한 ROS 상의 CUDA 설치법
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11.8_Installation.md
@@ -105,6 +105,8 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
 ## 3. Automation Part
+
+
 
 ## 4. Demonstration
 
