@@ -14,7 +14,7 @@ Proffesor | Young-Keun Kim
 
 ![image](https://user-images.githubusercontent.com/84533279/173822161-78baf6a8-6bdf-46b9-a990-63b9ed181984.png)
 
-## Introduction
+## 1. Introduction
 
 이 Respository는 한동대학교 2023년 1학기에 진행된 Industrial AI & Automation 수업의 기말 프로젝트인, **Robot Sonny (Airhockey Robot)** 에 대한  **Tutorial**  이 포함되어 있습니다.
 
@@ -22,7 +22,7 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 우리는 **"참여성"**, **"실현가능성"** 을 중점으로 프로젝트 주제를 선정하였다. 이에 **에어하키로봇**이 참가자가 쉽게 게임을 진행 할 수 있으며, 협동로봇으로 구현할 수 있을것이라 판단하였다. 
 
-## Hardware
+## 1) Hardware
 
 **Co-Robot**
 * Indy-10
@@ -52,6 +52,8 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 **End-Effector**
 * 3d Printed Airhocket Paddle
 
+로봇팔의 브라켓 크기를 실측하여 이에 맞게 모델링을 진행하였다. 하키채를 "Paddle"이라고 하는데, 로봇팔의 느린 움직임을 보완하기 위해 기본적인 Paddle에 비해 비교적 큰 크기로 모델링을 하였다.
+
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/556c4dad-de95-46b4-a35b-26ed7ac3c39c)
 
 
@@ -60,7 +62,12 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 에어하키의 공 이름을 **PUCK**이라고 한다.
 
 
-## 1) Flow Chart
+## 2) Software
+
+~
+
+
+## 3) Flow Chart
 
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/facad01f-a214-4cc7-a382-84f436f15243)
 
@@ -79,5 +86,11 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 5. When a goal is scored, the robot is moved to pick up the puck using a Vacuum Gripper and then place it back on the table
 
+## 2. DeepLearning Part
 
+## 3. Automation Part
+
+## 4. Demonstration
+
+## 5. Trouble Shooting
 
