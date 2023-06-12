@@ -1,6 +1,6 @@
 # IAIA_Project2_RobotSonny(Airhockey Robot)
 
-**2023.06.11. Sun**
+**2023.06.13.00:38 TUE**
 
 **Handong Global University, School of Mechanical and Control Engineering, 2023-1 Industrial AI & Automation**
 
