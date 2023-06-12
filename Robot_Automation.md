@@ -47,13 +47,6 @@ Camera 파트의 경우 **Demo 2: Move with Camera**의 코드를 참고하여 �
 target_joints에 입력한 축의 각도는, 수업에서 제공되는 테블릿 어플리케이션 상에서 원하는 좌표로 이동 뒤 그 때의 각 축 각도를 옮겨 쓴 값이다.
 
 
-아래는 키 입력 Flag를 통해 로봇을 구동하여 Puck을 막는 Demo영상이다.
-
-![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/1e55b6bb-558b-42dd-8697-6987618f300e)
-
-
-
-
 camera
 
 ```python
