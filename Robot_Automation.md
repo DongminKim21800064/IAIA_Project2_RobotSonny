@@ -29,8 +29,7 @@ Robot Sonny 프로젝트를 진행하기 위해서는 느린 로봇의 움직임
 
 따라서 위치 Flag를 3개 정의 하여, 각각 Left, Right, Front 방면으로 날아오는 Puck을 막게 끔 설계하고자 한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1ed9e9e-37cf-47d6-8ff1-c337ab523d7e/Untitled.png)
-
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/8662b3c9-62d3-4dc1-ade8-c519172e9cf3)
 ---
 
 ### Demo Code test
