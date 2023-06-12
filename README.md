@@ -116,9 +116,12 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_
 
 ## 3. Automation Part
 
-- 
+- 키보드입력 Flag를 통해 로봇 팔 구동 (W/O 이미지 프로세싱)
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_Automation.md
+- 로봇 구동 속도 향상 방법
 
+
+### 최종 코드 및 설명
 
 ## 4. Demonstration
 
