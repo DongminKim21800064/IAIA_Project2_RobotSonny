@@ -116,6 +116,7 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_
 
 ## 3. Automation Part
 
+- 
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_Automation.md
 
 
