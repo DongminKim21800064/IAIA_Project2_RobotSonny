@@ -129,4 +129,12 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_A
 
 1) 로봇을 오래 사용할 경우 반응속도가 느려진다.
 
+2) Puck 이동 이동경로 예측 상의 문제
+   2-1) 기울어진 Table로 인한 입,반사각 Error
+      - 에어하키 테이블의 경사로 인해, 예상했던 입,반사각과 다른 경로로 Puck이 이동하였다. 이에 테이블의 경사를 측정하여 거의 수평이 되도록 맞추는 작업을 진행했다.
+      - 이를 통해 이동경로 정확성을 향상시킬 수 있었다.
+   
+  ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/89f1925f-3892-4592-ba70-ac7ddae5146d)
+
+
 
