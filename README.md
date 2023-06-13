@@ -101,11 +101,14 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 ## 2. Image Processing Part
 
-**아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.**
+- 아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
 
-- Using OpenCV (Color Segmentaion)
+- 또한, 인터페이스 기능을 추가하여 좋은 외형을 구축하기 위해 노력했다.
+
+   -Using OpenCV (Color Segmentaion)
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
+ 
  
 **딥러닝**
 
@@ -124,22 +127,34 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_A
 - 로봇 구동 속도 향상 방법
 
 
-### 최종 코드 및 설명
+## 4. 최종 코드 및 설명
 
-## 4. Demonstration
+## 5. Demonstration
 
-## 5. Trouble Shooting
+## 6. Trouble Shooting
 
-1) 로봇을 오래 사용할 경우 반응속도가 느려진다.
+1) 로봇 동작 속도 Exceeding
+   - ROS 상에서 동작 속도 향상을 위해 코드 수정을 진행하였으나, 구현하지 못했다.
+   - Indy10 Neuromeka 사이트이 "Doc"에 들어가면, Indy10에 관련한 인터페이스 코드 설명이 있다.
+   - Neuromeka Site : http://docs.neuromeka.com/3.0.0/kr/Python/section1/
+   - IAIA Code URL : https://github.com/hyKangHGU/Industrial-AI-Automation_HGU/tree/main/indy_utils
+   - "Indy10_set_velocity.py"에서 "set_joint_vel_level(#)  # 1 ~ 9"을 확인할 수 있다.
+   - Indy10 로봇은 1부터 9까지의 속도 레벨이 존재하며, 9가 최대속도이다. 해당 코드를 수정하여 속도 조절이 가능하다.
+
+![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/5ce9a220-fd8b-42de-bea5-7519282c5ba8)
+
+
+
+2) 로봇을 오래 사용할 경우 반응속도가 느려진다.
    - 정확한 이유를 알 수는 없지만, 로봇이 입력 위치와 실제 위치 오차를 줄이는 제어 과정에서 오류가 누적되어 연산시간이 늘어난 것이라 추측된다.
    - 알고리즘 상에서 로봇 동작을 멈추는 코드를 알맞지 않게 사용하면, 대기 시간이 길어져 동작 반응이 느려질 수 있다.
 
-2) Puck 이동 이동경로 예측 상의 문제
+3) Puck 이동 이동경로 예측 상의 문제
    2-1) 기울어진 Table로 인한 입,반사각 Error
       - 에어하키 테이블의 경사로 인해, 예상했던 입,반사각과 다른 경로로 Puck이 이동하였다. 이에 테이블의 경사를 측정하여 거의 수평이 되도록 맞추는 작업을 진행했다.
       - 이를 통해 이동경로 정확성을 향상시킬 수 있었다.
    
   ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/89f1925f-3892-4592-ba70-ac7ddae5146d)
 
-## 6. Appendix
+## 7. Appendix
 
