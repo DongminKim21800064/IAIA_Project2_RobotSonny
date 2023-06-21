@@ -94,7 +94,9 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 5. When a goal is scored, the robot is moved to pick up the puck using a Vacuum Gripper and then place it back on the table
 
-## 2. 초기 세팅 및 실행법
+## 2. Initial Setting and Execution
+
+https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Tutorial.md
 
 ## 3. Image Processing Part
 
