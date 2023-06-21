@@ -12,7 +12,7 @@ $ cd ~/catkin_ws/
 $ catkin_make
 ```
 
-3. "Final.zip"을 catkin_ws / src 파일 안에 압축 해제.
+3. "airhockey"파일을 다운 받고 catkin_ws / src 파일 안에 압축 해제.
 
 4. "airhockey.sh"파일을 다운 후 catkin_ws 파일에 넣기
   - 파일 주소 확인. 본인 환경에 맞게 주소 수정
