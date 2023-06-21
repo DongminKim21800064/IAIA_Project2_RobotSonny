@@ -131,6 +131,8 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_A
 
 ## 5. Demonstration
 
+https://youtu.be/ckzm2yjWM2U 
+
 ## 6. Trouble Shooting
 
 1) 로봇 동작 속도 Exceeding
