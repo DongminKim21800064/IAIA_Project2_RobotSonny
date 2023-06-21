@@ -1,6 +1,6 @@
 # IAIA_Project2_Robot Byeong-Gi(Airhockey Robot)
 
-**2023.06.13.15:13 TUE**
+**2023.06.21.17:23 TUE**
 
 **Handong Global University, School of Mechanical and Control Engineering, 2023-1 Industrial AI & Automation**
 
