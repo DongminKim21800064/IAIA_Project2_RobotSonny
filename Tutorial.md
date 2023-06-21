@@ -22,4 +22,5 @@ $ catkin_make
   # Run the Python script
   python3 /home/"본인 주소"/catkin_ws/src/indy_driver/src/indy_set_velocity.py
   ```
-5.
+
+5. 
