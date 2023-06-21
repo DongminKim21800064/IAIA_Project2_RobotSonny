@@ -22,3 +22,11 @@ $ catkin_make
   # Run the Python script
   python3 /home/"본인 주소"/catkin_ws/src/indy_driver/src/indy_set_velocity.py
   ```
+
+### 에러 해결 방법
+
+``` bash
+sudo apt install ros-noetic-industrial-robot-client
+sudo apt install ros-noetic-moveit-visual-tools
+sudo apt install ros-noetic-moveit-commander
+```
