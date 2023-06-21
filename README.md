@@ -108,17 +108,6 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
    -Using OpenCV (Color Segmentaion)
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
- 
- 
-**딥러닝**
-
-초기에는 딥러닝을 활용한 영상처리를 계획 하였으나, 이를 사용할 경우 연산량 증가로 인해 처리속도가 매우 느려져 딥러닝 파트를 프로젝트에서 제외 하였다.
-
-- 딥러닝을 위한 ROS 상의 CUDA 설치법
-https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/CUDA_11.8_Installation.md
-
-- Yolo v8 및 Open cv 카메라 세팅
-https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Camera_yolo_OpenCV.md
 
 ## 3. Automation Part
 
