@@ -111,7 +111,7 @@ https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_A
 - 로봇 구동 속도 향상 방법
 
 
-## 4. 최종 코드 및 설명
+## 4. 실행 Tutorial
 
 ## 5. Demonstration
 [![AirHockey Robot](http://img.youtube.com/vi/lsEivK4yrS4/0.jpg)](https://youtu.be/lsEivK4yrS4?t=0s)
