@@ -75,11 +75,6 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 * Python 3.x
 * Given ROS Libraries
 
-아래는 딥러닝을 위해 사용하고자했던 소프트웨어이다.
-* Cuda 11.8
-* Yolo V8
-
-
 ## 3) Flow Chart
 
 ![image](https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/assets/91419683/facad01f-a214-4cc7-a382-84f436f15243)
