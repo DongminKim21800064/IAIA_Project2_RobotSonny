@@ -35,7 +35,7 @@ sudo apt install ros-noetic-moveit-commander
 ```
 2. Permission Denied Error
    - Deny된 py 형식의 파일에 마우스 우측클릭 --> Properties --> permission 허용에 관한 박스 on
-   - 
+     
 
 ### 에어하키 하드웨어 세팅 방법
 
@@ -51,7 +51,7 @@ sudo apt install ros-noetic-moveit-commander
 
 3. 로봇 세팅
    3-1. 로봇 기준 우측, 중앙, 좌측 위치를 지정해주어야 한다. 패들이 테이블에 너무 밀착될 경우, 로봇팔 이동 시 테이블과 함께 카메라가 흔들리게되므로 적절한 거리를 잘 찾아야 한다.
-   3-2. 
+   3-2. 골이 먹힌 상황에서의 로봇 위치 선정 시, 로봇이 이동하면서 테이블과 부딫이지 않게 안전한 위치로 세팅해야 한다.
 
    
 ### 게임 진행 시 유의사항
