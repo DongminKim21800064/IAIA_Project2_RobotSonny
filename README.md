@@ -94,7 +94,9 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 
 5. When a goal is scored, the robot is moved to pick up the puck using a Vacuum Gripper and then place it back on the table
 
-## 2. Image Processing Part
+## 2. 초기 세팅 및 실행법
+
+## 3. Image Processing Part
 
 - 아래의 과정을 진행하여, ROS상에서 영상처리를 실행할 수 있는 환경을 세팅 및 Puck 이동경로 추적을 진행하였다.
 
@@ -104,14 +106,13 @@ Vacuum Gripper는 골이 먹힌 Flag에서 Puck을 줍는 동작에서 사용된
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/OpenCV_color_segmentation.md
 
 
-## 3. Automation Part
+## 4. Automation Part
 
 - 키보드입력 Flag를 통해 로봇 팔 구동 (W/O 이미지 프로세싱)
 https://github.com/DongminKim21800064/IAIA_Project2_RobotSonny/blob/main/Robot_Automation.md
 - 로봇 구동 속도 향상 방법
 
 
-## 4. 실행 Tutorial
 
 ## 5. Demonstration
 [![AirHockey Robot](http://img.youtube.com/vi/lsEivK4yrS4/0.jpg)](https://youtu.be/lsEivK4yrS4?t=0s)
