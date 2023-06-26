@@ -13,7 +13,7 @@ function run_in_terminator {
 # Run the commands
 run_in_terminator "bash -c 'source devel/setup.bash; roslaunch indy10_moveit_config moveit_planning_execution.launch robot_ip:=192.168.0.8; exec bash'"
 run_in_terminator "bash -c 'source devel/setup.bash; rosrun indy_driver camera.py; exec bash'"
-run_in_terminator "bash -c 'source devel/setup.bash; rosrun indy_driver demo_move_with_camera.py; exec bash'"
+run_in_terminator "bash -c 'source devel/setup.bash; rosrun indy_driver move_robot.py; exec bash'"
 
 # Wait for user input to close all windows
 read -p "Press Enter to close all Terminator windows"
