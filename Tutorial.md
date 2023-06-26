@@ -24,6 +24,14 @@ $ catkin_make
   python3 /home/"본인 주소"/catkin_ws/src/indy_driver/src/indy_set_velocity.py
   ```
 
+### 실행
+
+```bash
+
+./airhockey.sh
+
+```
+
 
 ### 코드 실행 에러 해결 방법
 
