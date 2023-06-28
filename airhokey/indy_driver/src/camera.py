@@ -10,7 +10,7 @@ import datetime
 
 class Predict:
 
-    def __init__(self, cameraNumber=2):
+    def __init__(self, cameraNumber=0):
         
         self.drawing = False
         self.ix, self.iy = -1, -1
@@ -50,7 +50,6 @@ class Predict:
         self.shoot = 0
 
         # camera setting
-        cameraNumber = 2
         self.cap        = cv.VideoCapture(cameraNumber)          # 카메라 연결을 위한 VideoCapture 객체 생성
         fourcc          = cv.VideoWriter.fourcc('M','J','P','G')
         self.cap.set(cv.CAP_PROP_FOURCC, fourcc)
