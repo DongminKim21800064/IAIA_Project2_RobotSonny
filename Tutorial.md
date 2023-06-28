@@ -28,6 +28,7 @@ $ catkin_make
 
 ```bash
 
+chmod +x airhockey.sh
 ./airhockey.sh
 
 ```
