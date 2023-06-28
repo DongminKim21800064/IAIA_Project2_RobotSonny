@@ -26,14 +26,14 @@ $ catkin_make
 5. /catkin_ws/src/indy_driver/ 에서 코드 상세 정보 수정
 
 **move_robot.py** 
-'''python
+```python
 sys.path.inser(0, 'indy_driver/src 전체 경로로 설정')
-'''
+```
 
 **camera.py**
-'''python
+```python
 def __init__(self, cameraNumber = 0):
-'''
+```
 에서 카메라가 잘 나오도록 번호를 설정해준다
 
 ### 실행
