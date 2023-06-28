@@ -1,5 +1,5 @@
 # Run the Python script
-python3 /home/eric/catkin_ws/src/indy_driver/src/indy_set_velocity.py
+python3 /home/"user name"/catkin_ws/src/indy_driver/src/indy_set_velocity.py
 
 # Define a function to run a command in a new Terminator window and arrange it
 function run_in_terminator {
