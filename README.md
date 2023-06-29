@@ -26,7 +26,7 @@ Automation 프로젝트는 Indy-10(Neuromeka)의 6축 협동로봇팔을 제어�
 
 
 
-## 1) Hardware
+### 1) Hardware
 
 **Co-Robot**
 * Indy-10
