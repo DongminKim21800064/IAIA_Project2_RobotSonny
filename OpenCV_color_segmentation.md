@@ -752,11 +752,4 @@ if __name__ == "__main__":
     processor.process_video()
 ```
 
-https://sendanywhe.re/8932AOBS
 
-진행해야 할 것
-
-- 각도 튜닝
-- 두번 반사
-
-https://github.com/jjrobots/Air_Hockey_Robot_EVO/blob/master/VisionSystem/source/AHR_EVO/AHR2_34.cpp
